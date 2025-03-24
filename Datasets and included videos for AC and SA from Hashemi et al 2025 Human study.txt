@@ -1,0 +1,122 @@
+------------------------------
+ACTION RECOGNITION
+------------------------------
+
+TEST SET:
+                           
+Participants: CCC EEE LLL
+
+Videos:
+LLL Cholecystectomy (2-1)
+EEE Gastroesophageal cancer
+CCC Prostatectomy (4)
+
+VALIDATION SET:
+
+Participants: AAA HHH
+
+Videos:
+AAA Adrenectomy (2)
+AAA Nephrectomy (1)
+HHH Gastroesophageal cancer (2-1)
+
+	
+TRAINING SET
+
+Participants: BBB FFF III JJJ KKK 
+
+Videos:
+KKK Cholecystectomy (1-2)
+KKK Cholecystectomy (2-2)
+FFF Abdominoperineal Resection (1-4)
+BBB Adrenectomy (3)
+JJJ Prostatectomy (4)
+III Gastroesophageal cancer (2-2)
+
+
+
+------------------------------
+SKILLS ASSESSMENT:
+------------------------------
+
+TEST SET:
+
+Participants: 
+Novice: JJJ
+Experienced: GGG
+
+Videos:
+JJJ Prostatectomy (1)
+JJJ Prostatectomy (2)
+JJJ Prostatectomy (3)
+JJJ Prostatectomy (4)	
+GGG Abdominoperineal Resection (2-1)
+
+VALIDATION SET:
+
+Participants: 
+Novice: LLL
+Experienced: AAA
+
+Videos:
+LLL Cholecystectomy (1-1)
+LLL Cholecystectomy (2-1)
+AAA Adrenectomy (1)
+AAA Nephrectomy (1)
+
+
+TRAINING SET:
+
+Participants:
+Novice: III KKK
+Experienced: BBB CCC EEE FFF
+
+Videos:
+III Gastroesophageal cancer (2-2)
+KKK Cholecystectomy (1-2)
+KKK Cholecystectomy (2-2)
+BBB Adrenectomy (3)
+CCC Prostatectomy (4)
+EEE Gastroesophageal cancer
+FFF Abdominoperineal Resection (1-2)
+
+
+------------------------------
+MODIFIED SKILLS ASSESSMENT:
+------------------------------
+
+TEST SET:
+
+Participants: 
+Novice: JJJ
+Experienced: GGG
+
+Videos:
+JJJ Prostatectomy (3)
+JJJ Prostatectomy (4)	
+GGG Abdominoperineal Resection (2-1)
+
+VALIDATION SET:
+
+Participants: 
+Novice: LLL
+Experienced: AAA
+
+Videos:
+LLL Cholecystectomy (1-1)
+LLL Cholecystectomy (2-1)
+AAA Nephrectomy (1)
+
+
+TRAINING SET:
+
+Participants:
+Novice: III KKK
+Experienced: CCC EEE FFF
+
+Videos:
+III Gastroesophageal cancer (2-2)
+KKK Cholecystectomy (1-2)
+CCC Prostatectomy (4)
+EEE Gastroesophageal cancer
+FFF Abdominoperineal Resection (1-2)
