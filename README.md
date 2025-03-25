@@ -6,7 +6,7 @@ The codes are open-source. However, when using the code, please make a reference
 
 Instructions:
 
-1) Download the video data, labels, and information about the dataset from: https://www.synapse.org/Synapse:syn65669588
+1) Download the video data, labels, and information about the dataset from: https://www.synapse.org/Synapse:syn65669574/wiki/631434
 2) Use the algorithm, following the steps below: Have all the .py files in one folder, all the videos in another folder, and all the labels in a third folder.
 3) Use 'Publication_main vidoes to frames.py' to split videos into indiviual frames
 4) Use 'Publication_Preprocessing.py' to generate training, validation and test sets.
