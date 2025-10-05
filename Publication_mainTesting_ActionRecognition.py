@@ -1,6 +1,6 @@
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
-'### The following script is made as part of the study #Transfer learning of a pretrained preclinical neural network for robotic surgical assessment on limited clinical data###'
-'### The code is open-source. However, when using the code, please make a reference to our paper and repository.""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+'### The following script is made as part of the Hashemi et al. papers regarding robot surgery and AI###'""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+'### The code is open-source. However, when using the code, please make a reference to our papers and repositories.""""""""""""""""""""""""""""""""""""""""""""""""""""
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
 
 
@@ -218,3 +218,4 @@ incorrectTrueLabels = np.array(y_true)[different_rows_indices]
 # plt.savefig("Novice.png")
 # plt.show()
 #
+
