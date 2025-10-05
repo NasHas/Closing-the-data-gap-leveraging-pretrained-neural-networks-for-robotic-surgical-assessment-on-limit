@@ -1,6 +1,6 @@
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
-'### The following script is made as part of the study #Transfer learning of a pretrained preclinical neural network for robotic surgical assessment on limited clinical data###'
-'### The code is open-source. However, when using the code, please make a reference to our paper and repository.""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+'### The following script is made as part of the Hashemi et al. papers regarding robot surgery and AI###'""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+'### The code is open-source. However, when using the code, please make a reference to our papers and repositories.""""""""""""""""""""""""""""""""""""""""""""""""""""
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
 
 '''
@@ -61,3 +61,4 @@ def convert(Prename, LocalPlacement, AllData_folder, framerate):
 
 convert('Name of file', r'PATH TO FILE', r'PATH TO FOLDER TO SAVE TO', FPS OF VIDEO)
 # EXAMPLE: convert('Dissection colon', r'C:\Videos\COLON/', r'C:\AllFramesCOLON/', 30)
+
