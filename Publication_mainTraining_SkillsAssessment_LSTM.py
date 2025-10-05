@@ -1,6 +1,6 @@
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
-'### The following script is made as part of the study #Transfer learning of a pretrained preclinical neural network for robotic surgical assessment on limited clinical data###'
-'### The code is open-source. However, when using the code, please make a reference to our paper and repository.""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+'### The following script is made as part of the Hashemi et al. papers regarding robot surgery and AI###'""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+'### The code is open-source. However, when using the code, please make a reference to our papers and repositories.""""""""""""""""""""""""""""""""""""""""""""""""""""
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
 
 import time
@@ -357,3 +357,4 @@ np.save('ValImgLSTM_SA.npy', Y_valImg_LSTM)
 
 # Initiate training with the correct inputs. Testdata must be manually moved to the testing algorithm (different code and folder location)
 train(Y_trainImg_LSTM, Y_trainLabel_LSTM, Y_valImg_LSTM, Y_valLabel_LSTM, model, EPOCHS, BATCH_SIZE, img_path)
+
