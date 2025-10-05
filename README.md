@@ -1,4 +1,4 @@
-# Transfer-learning-of-pretrained-network-on-limited-clinical-data-Human-Study
+# Closing the data gap: leveraging pretrained neural networks for robotic surgical assessment on limited clinical data
 
 Clinical data for action recognition and skills assessment using deep learning. Including public dataset from human robot-assisted surgical procedures.
 
