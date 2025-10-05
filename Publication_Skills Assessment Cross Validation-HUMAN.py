@@ -1,7 +1,8 @@
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
-'### The following script is made as part of the study #Transfer learning of a pretrained preclinical neural network for robotic surgical assessment on limited clinical data###'
-'### The code is open-source. However, when using the code, please make a reference to our paper and repository.""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+'### The following script is made as part of the Hashemi et al. papers regarding robot surgery and AI###'""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+'### The code is open-source. However, when using the code, please make a reference to our papers and repositories.""""""""""""""""""""""""""""""""""""""""""""""""""""
 '"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""'
+
 
 
 import time
@@ -116,7 +117,6 @@ def generate_samples(img_name, label, n_samples, img_path):
         for i in range(len(X1[1-1])):
             FullName = img_path + X1[j,i]
             img = cv2.imread(FullName[0], 1)
-            #img = cv2.imread('D:\\AllFramesPorcine\\Dag 1 Aage hul paa tarmen frame3.jpg', 1)
             img = Image.fromarray(img.astype(np.uint8))
             loadedImgSize = np.size(img)
 
@@ -396,5 +396,6 @@ for fold, (train_acc, val_acc) in enumerate(zip(acc_arr_train_fold, acc_arr_val_
 
 # for acc in acc_per_fold:
 #     print("accuracy for this fold is: ", acc)
+
 
 
